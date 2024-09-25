@@ -7,6 +7,11 @@ authors = [
 description = "SPQR SLG Games"
 readme = "README.md"
 requires-python = ">=3.6"
+dependencies = [
+  "pygame",
+  "networkx",
+  "yaml"
+  ]
 classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "Programming Language :: Python :: 3",

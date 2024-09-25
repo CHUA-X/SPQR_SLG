@@ -1,0 +1,23 @@
+# YAML data for all units
+
+- name: "Legio_III"
+  location: "etruria"
+  image: "rome_legion"
+
+- name: "Legio_IX"
+  location: "latium_et_campania"
+  image: "fedorati"
+
+- name: "Legio_XII"
+  location: "latium_et_campania"
+  image: "rome_general"
+
+- name: "Legio_X"
+  location: "lucania_et_bruttiun"
+  image: "praetorians"
+
+- name: "Sicilian_Fleet"
+  location: "sicily"
+  image: "boat"
+  naval: yes
+

@@ -1,0 +1,50 @@
+# main Window
+- title: main-window
+  x: 0
+  y: 0
+  w: 640
+  h: 480
+  draw: 0
+  items:
+    - widget: CLabel
+      text: Resolution
+      x: 29
+      y: 26
+    - widget: CLabel
+      text: Play Music
+      x: 32
+      y: 64
+    - widget: CLabel
+      text: Show intro
+      x: 30
+      y: 100
+    - widget: CCheckBox
+      initial: 1
+      x: 140
+      y: 100
+    - widget: CCheckBox
+      initial: 1
+      x: 140
+      y: 64
+    - widget: COptionMenu
+      x: 124
+      y: 20
+      options: ["800x600", "1024x768", "Fullscreen"]
+      describe: opt-Resolution
+    - widget: CSeperator
+      x: 6
+      y: 132
+      w: 631
+    - widget: CButton
+      x: 165
+      y: 148
+      text: OK
+      callbacks:
+        - lclk: okClick
+    - widget: CButton
+      x: 50
+      y: 148
+      text: Cancel
+      callbacks:
+        - lclk: cancelClick
+

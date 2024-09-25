@@ -1,0 +1,17 @@
+# main Window
+- title: Window Test
+  x: -1
+  y: -1
+  w: 320
+  h: 200
+  draw: 1
+  items:
+    - widget: CButtonDetails
+      text: OK
+      key: K_o
+      callback: killModalWindow
+
+    - widget: CButtonDetails
+      text: Exit
+      key: K_e
+      callback: killModalWindow
