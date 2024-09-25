@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="SPQR_SLG",
-    version="0.0.1",
+    version="0.0.2",
     author="CHUA某人",
     author_email="chua-x@outlook.com",
     description="SPQR Games",
@@ -14,7 +14,7 @@ setuptools.setup(
     url="https://github.com/CHUA-X/SPQR_SLG",
     packages=setuptools.find_packages(where='./src'),
     package_dir={"": "src"},
-    install_requires=["pygame","networkx","yaml"],
+    install_requires=["pygame","networkx","pyyaml"],
     package_data={
         '': ['.ogg', '.png', '.ttf', '.txt', '.yml', '.cfg'],
     },

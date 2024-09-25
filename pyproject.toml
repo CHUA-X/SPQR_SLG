@@ -1,6 +1,6 @@
 [project]
 name = "SPQR_SLG"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="CHUA某人", email="chua-x@outlook.com" },
 ]
@@ -10,7 +10,7 @@ requires-python = ">=3.6"
 dependencies = [
   "pygame",
   "networkx",
-  "yaml"
+  "pyyaml"
   ]
 classifiers=[
         "Development Status :: 2 - Pre-Alpha",
