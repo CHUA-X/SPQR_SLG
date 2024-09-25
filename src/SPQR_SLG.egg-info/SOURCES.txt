@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/SPQR_SLG.egg-info/PKG-INFO
+src/SPQR_SLG.egg-info/SOURCES.txt
+src/SPQR_SLG.egg-info/dependency_links.txt
+src/SPQR_SLG.egg-info/requires.txt
+src/SPQR_SLG.egg-info/top_level.txt

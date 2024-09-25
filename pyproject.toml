@@ -16,7 +16,7 @@ classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3 :: Only",
-        "License :: OSI Approved :: GPL License",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Natural Language :: Chinese (Simplified)",
         "Natural Language :: English",
         "Operating System :: Unix",
