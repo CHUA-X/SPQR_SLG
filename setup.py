@@ -14,7 +14,7 @@ setuptools.setup(
     url="https://github.com/CHUA-X/SPQR_SLG",
     packages=setuptools.find_packages(where='./src'),
     package_dir={"": "src"},
-    install_requires=["pygame,networkx,yaml"],
+    install_requires=["pygame","networkx","yaml"],
     package_data={
         '': ['.ogg', '.png', '.ttf', '.txt', '.yml', '.cfg'],
     },
