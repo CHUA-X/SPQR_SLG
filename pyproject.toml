@@ -1,0 +1,25 @@
+[project]
+name = "SPQR_SLG"
+version = "0.0.1"
+authors = [
+  { name="CHUA某人", email="chua-x@outlook.com" },
+]
+description = "SPQR SLG Games"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers=[
+        "Development Status :: 2 - Pre-Alpha",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3 :: Only",
+        "License :: OSI Approved :: GPL License",
+        "Natural Language :: Chinese (Simplified)",
+        "Natural Language :: English",
+        "Operating System :: Unix",
+        "Operating System :: POSIX :: Linux",
+        "Operating System :: MacOS :: MacOS X",
+        "Operating System :: Microsoft :: Windows",
+    ]
+
+[project.urls]
+"Homepage" = "https://github.com/CHUA-X/SPQR_SLG"
+"Bug Tracker" = "https://github.com/CHUA-X/SPQR_SLG/issues"

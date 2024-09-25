@@ -1,0 +1,120 @@
+# YAML data for all regions
+
+- name: "lucania_et_bruttiun"
+  xpos: 1339
+  ypos: 1147
+  colour_r: 184
+  colour_g: 37
+  colour_b: 37
+  unit_x: 1380
+  unit_y: 1184
+  city: "Brundisium"
+  naval:
+    - name: "latium_et_campania"
+    - name: "sicily"
+  borders:
+    - name: "apulia_et_calabria"
+    - name: "latium_et_campania"
+
+- name: "apulia_et_calabria"
+  xpos: 1309
+  ypos: 1076
+  colour_r: 184
+  colour_g: 37
+  colour_b: 37
+  unit_x: 1429
+  unit_y: 1120
+  city: "Sybaris"
+  borders:
+    - name: "latium_et_campania"
+    - name: "lucania_et_bruttiun"
+
+- name: "latium_et_campania"
+  xpos: 1201
+  ypos: 1038
+  colour_r: 184
+  colour_g: 37
+  colour_b: 37
+  unit_x: 1233
+  unit_y: 1103
+  city: "Roma"
+  naval:
+    - name: "sicily"
+    - name: "lucania_et_bruttiun"
+  borders:
+    - name: "lucania_et_bruttiun"
+    - name: "apulia_et_calabria"
+    - name: "aemilia"
+    - name: "etruria"
+
+- name: "aemilia"
+  xpos: 1157
+  ypos: 969
+  colour_r: 55
+  colour_g: 55
+  colour_b: 230
+  unit_x: 1225
+  unit_y: 979
+  city: "Arretium"
+  borders:
+    - name: "latium_et_campania"
+    - name: "etruria"
+    - name: "venetia_et_histria"
+
+- name: "etruria"
+  xpos: 1081
+  ypos: 970
+  colour_r: 184
+  colour_g: 37
+  colour_b: 37
+  unit_x: 1147
+  unit_y: 1007
+  city: "Ariminum"
+  borders:
+    - name: "latium_et_campania"
+    - name: "aemilia"
+    - name: "transpadana"
+    - name: "venetia_et_histria"
+
+- name: "sicily"
+  xpos: 1245
+  ypos: 1300
+  colour_r: 184
+  colour_g: 37
+  colour_b: 37
+  unit_x: 1340
+  unit_y: 1326
+  city: "Syracuse"
+  naval:
+    - name: "lucania_et_bruttiun"
+    - name: "latium_et_campania"
+  borders:
+    - name: "lucania_et_bruttiun"
+
+- name: "transpadana"
+  xpos: 924
+  ypos: 826
+  colour_r: 184
+  colour_g: 37
+  colour_b: 37
+  unit_x: 978
+  unit_y: 970
+  city: "Nicaea"
+  borders:
+    - name: "etruria"
+    - name: "venetia_et_histria"
+
+- name: "venetia_et_histria"
+  xpos: 1050
+  ypos: 802
+  colour_r: 184
+  colour_g: 37
+  colour_b: 37
+  unit_x: 1186
+  unit_y: 831
+  city: "Aquileia"
+  borders:
+    - name: "transpadana"
+    - name: "etruria"
+    - name: "aemilia"
+

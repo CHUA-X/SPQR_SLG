@@ -1,0 +1,19 @@
+How to draw the regions:
+
+For each region, there are 3 images:
+
+xxx.png
+xxx_icon.png
+xxx_mask.png
+
+The plain png file is an alpha .png that shows the order of the region. This is used to display
+the colour of the border. The outer pixel border must be 0% transparent, the next pixel line must
+be 33% transparent and the third line must be 66% transparent. The only colour used must be
+#000000, black.
+
+The icon file is png format file of which the longest side must be 95 pixels. This shows the region
+and it's border, and is used to display region details, and when we need a small picture of the
+region.
+
+The mask file is a block black image that must be 40% transparant black.
+
